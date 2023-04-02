@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessLib", "ChessLib\ChessL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess", "Chess\Chess.csproj", "{742AF7B7-20F0-43BD-9C99-14F9E4859F1C}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{01096030-09C1-4E31-8D91-E474F64FBF85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{742AF7B7-20F0-43BD-9C99-14F9E4859F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742AF7B7-20F0-43BD-9C99-14F9E4859F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{742AF7B7-20F0-43BD-9C99-14F9E4859F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01096030-09C1-4E31-8D91-E474F64FBF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01096030-09C1-4E31-8D91-E474F64FBF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01096030-09C1-4E31-8D91-E474F64FBF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01096030-09C1-4E31-8D91-E474F64FBF85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
