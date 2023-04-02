@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  chess:
-    image: ${DOCKER_REGISTRY-}chess
-    build:
-      context: .
-      dockerfile: Chess/Dockerfile

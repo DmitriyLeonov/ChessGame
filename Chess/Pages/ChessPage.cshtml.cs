@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MiniGames.Hubs;
-using Microsoft.AspNetCore.Mvc;
+﻿using Chess.Hubs;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MiniGames.Pages
+namespace Chess.Pages
 {
     public class ChessPageModel : PageModel
     {

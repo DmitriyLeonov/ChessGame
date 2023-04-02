@@ -1,12 +1,12 @@
-﻿using ChessLib;
-using ChessLib.EventArguments;
-using Microsoft.AspNetCore.SignalR;
-using System;
+﻿using System;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading.Tasks;
+using ChessLib;
+using ChessLib.EventArguments;
+using Microsoft.AspNetCore.SignalR;
 
-namespace MiniGames.Hubs
+namespace Chess.Hubs
 {
     public class GameHub : Hub
     {

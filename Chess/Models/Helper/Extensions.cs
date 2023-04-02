@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Html;
+﻿using System;
+using System.Linq;
+using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
-using System;
-using System.Linq;
 
-namespace MiniGames.Models.Helper
+namespace Chess.Models.Helper
 {
     public static class Extensions
     {

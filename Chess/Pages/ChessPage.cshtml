@@ -1,8 +1,8 @@
 ﻿@page
-@using Models.Helper;
+@using Chess.Models.Helper
 @using ChessLib.EventArguments;
 @using ChessLib;
-@model ChessPageModel
+@model Chess.Pages.ChessPageModel
 @{
     ViewData["Title"] = "Home page";
 }
@@ -200,7 +200,7 @@
             var img1 = document.createElement("img");
             var p = document.createElement("p");
             p.innerText = move.start.name;
-            img1.src = "wwwroot/images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
+            img1.src = "images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
             span1.appendChild(p);
 
             div.appendChild(img1)
