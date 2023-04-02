@@ -9,6 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["Chess/Chess.csproj", "Chess/"]
 RUN dotnet restore "Chess/Chess.csproj"
+
 COPY . .
 WORKDIR "/src/Chess"
 RUN dotnet build "Chess.csproj" -c Release -o /app/build
