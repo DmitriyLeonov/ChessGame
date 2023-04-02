@@ -200,7 +200,7 @@
             var img1 = document.createElement("img");
             var p = document.createElement("p");
             p.innerText = move.start.name;
-            img1.src = "/css/images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
+            img1.src = "/images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
             span1.appendChild(p);
 
             div.appendChild(img1)
@@ -215,7 +215,7 @@
             if (move.end.piece != null) {
                 var p = document.createElement("p");
                 p.innerText = move.end.name;
-                img2.src = "/css/images/" + t[move.end.piece.color].toLowerCase() + "_" + move.end.piece.name.toLowerCase() + ".svg";
+                img2.src = "/images/" + t[move.end.piece.color].toLowerCase() + "_" + move.end.piece.name.toLowerCase() + ".svg";
                 span2.appendChild(p);
                 div.appendChild(img2);
             }
@@ -263,7 +263,7 @@
                 if (entry.piece != null) {
                     var svg = document.createElement("img");
 
-                    svg.src = "/css/images/" + t[entry.piece.color].toLowerCase() + "_" + entry.piece.name + ".svg";
+                    svg.src = "/images/" + t[entry.piece.color].toLowerCase() + "_" + entry.piece.name + ".svg";
                     child.appendChild(svg);
 
                     if (entry.piece.color == playerColor) {

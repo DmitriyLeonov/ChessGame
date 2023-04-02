@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\css\images\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,40 +24,40 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\css\images\black_bishop.svg">
+    <Content Update="wwwroot\images\black_bishop.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\black_king.svg">
+    <Content Update="wwwroot\images\black_king.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\black_knight.svg">
+    <Content Update="wwwroot\images\black_knight.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\black_pawn.svg">
+    <Content Update="wwwroot\images\black_pawn.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\black_queen.svg">
+    <Content Update="wwwroot\images\black_queen.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\black_rook.svg">
+    <Content Update="wwwroot\images\black_rook.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_bishop.svg">
+    <Content Update="wwwroot\images\white_bishop.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_king.svg">
+    <Content Update="wwwroot\images\white_king.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_knight.svg">
+    <Content Update="wwwroot\images\white_knight.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_pawn.svg">
+    <Content Update="wwwroot\images\white_pawn.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_queen.svg">
+    <Content Update="wwwroot\images\white_queen.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\css\images\white_rook.svg">
+    <Content Update="wwwroot\images\white_rook.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
