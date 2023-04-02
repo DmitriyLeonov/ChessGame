@@ -197,10 +197,10 @@
             div.style.float = "left";
             var span1 = document.createElement("p");
             var span2 = document.createElement("p");
-            var img1 = document.createElement("img");
+            var img1 = document.createElement("svg");
             var p = document.createElement("p");
             p.innerText = move.start.name;
-            img1.src = "/wwwroot/images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
+            img1.src = "/images/" + t[move.start.piece.color].toLowerCase() + "_" + move.start.piece.name.toLowerCase() + ".svg";
             span1.appendChild(p);
 
             div.appendChild(img1)
