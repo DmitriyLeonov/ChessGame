@@ -18,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChessLib\ChessLib.csproj" />
+    <Reference Include="ChessLib">
+      <HintPath>wwwroot\lib\ChessLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 
